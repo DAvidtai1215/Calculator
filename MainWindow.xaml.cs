@@ -150,6 +150,13 @@ namespace Calculator
             operators = 0; //選擇「加」號
         }
 
+        private void btnDot_Click(object sender, RoutedEventArgs e)
+        {
+            // 確認輸入文字框中完全沒有小數點
+            if (txtNumber.Text.IndexOf(".") == -1)
+                txtNumber.Text = txtNumber.Text + ".";
+        }
+
         private void btnDivide_Click(object sender, RoutedEventArgs e)
         {
             firstNumber = Convert.ToSingle(txtNumber.Text);
@@ -157,10 +164,37 @@ namespace Calculator
             operators = 3; //選擇「除」號
         }
 
-        
+        private void btnEqual_Click(object sender, RoutedEventArgs e)
+        {
+            float finalResults = 0f; //宣告最後計算結果變數
+            secondNumber = Convert.ToSingle(txtNumber.Text); //將輸入文字框轉換成浮點數，存入第二個數字的全域變數
+
+            //依照四則運算符號的選擇，進行加減乘除
+            switch (operators)
+            {
+                case 0:
+                    finalResults = firstNumber + secondNumber;
+                    break;
+                case 1:
+                    finalResults = firstNumber - secondNumber;
+                    break;
+                case 2:
+                    finalResults = firstNumber * secondNumber;
+                    break;
+                case 3:
+                    finalResults = firstNumber / secondNumber;
+                    break;
+            }
 
 
 
 
+
+
+
+
+
+
+        }
     }
 }

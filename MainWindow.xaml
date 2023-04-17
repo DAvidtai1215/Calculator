@@ -22,9 +22,9 @@
         <Button x:Name="btnTwo" Content="2" HorizontalAlignment="Left" Height="59" Margin="332,269,0,0" VerticalAlignment="Top" Width="93" Click="btnTwo_Click"/>
         <Button x:Name="btnOne" Content="1" HorizontalAlignment="Left" Height="59" Margin="234,269,0,0" VerticalAlignment="Top" Width="93" Click="btnOne_Click"/>
         <Button x:Name="btnAdd" Content="+" HorizontalAlignment="Left" Height="59" Margin="553,334,0,0" VerticalAlignment="Top" Width="93" Click="btnAdd_Click"/>
-        <Button x:Name="btnEqual" Content="=" HorizontalAlignment="Left" Height="59" Margin="433,334,0,0" VerticalAlignment="Top" Width="93"/>
+        <Button x:Name="btnEqual" Content="=" HorizontalAlignment="Left" Height="59" Margin="433,334,0,0" VerticalAlignment="Top" Width="93" Click="btnEqual_Click"/>
         <Button x:Name="btnZero" Content="0" HorizontalAlignment="Left" Height="59" Margin="332,334,0,0" VerticalAlignment="Top" Width="93" Click="btnZero_Click"/>
-        <Button x:Name="btnDot" Content="." HorizontalAlignment="Left" Height="59" Margin="234,334,0,0" VerticalAlignment="Top" Width="93"/>
+        <Button x:Name="btnDot" Content="." HorizontalAlignment="Left" Height="59" Margin="234,334,0,0" VerticalAlignment="Top" Width="93" Click="btnDot_Click"/>
 
     </Grid>
 </Window>
