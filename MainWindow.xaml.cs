@@ -164,6 +164,14 @@ namespace Calculator
             operators = 3; //選擇「除」號
         }
 
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumber.Text = "0";
+            firstNumber = 0f;
+            secondNumber = 0f;
+            operators = -1;
+        }
+
         private void btnEqual_Click(object sender, RoutedEventArgs e)
         {
             float finalResults = 0f; //宣告最後計算結果變數
@@ -186,6 +194,12 @@ namespace Calculator
                     break;
             }
 
+            txtNumber.Text = string.Format("{0:0.##########}", finalResults); //在輸入文字框中，顯示最後計算結果，並且轉換成格式化的字串內容
+
+            //重置所有全域變數
+            firstNumber = 0f;
+            secondNumber = 0f;
+            operators = -1;
 
 
 

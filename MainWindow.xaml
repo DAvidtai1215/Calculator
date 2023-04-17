@@ -12,7 +12,7 @@
         <Button x:Name="btnNine" HorizontalAlignment="Left" Height="60" Margin="433,138,0,0" VerticalAlignment="Top" Width="93" Content="9" Click="btnNine_Click"/>
         <Button x:Name="btnEight" Content="8" HorizontalAlignment="Left" Height="60" Margin="332,138,0,0" VerticalAlignment="Top" Width="93" Click="btnEight_Click"/>
         <Button x:Name="btnSeven" Content="7" HorizontalAlignment="Left" Height="60" Margin="234,138,0,0" VerticalAlignment="Top" Width="93" Click="btnSeven_Click"/>
-        <Button x:Name="btnClear" Content="AC" HorizontalAlignment="Left" Height="60" Margin="106,138,0,0" VerticalAlignment="Top" Width="93"/>
+        <Button x:Name="btnClear" Content="AC" HorizontalAlignment="Left" Height="60" Margin="106,138,0,0" VerticalAlignment="Top" Width="93" Click="btnClear_Click"/>
         <Button x:Name="btnPlus" Content="*" HorizontalAlignment="Left" Height="59" Margin="553,205,0,0" VerticalAlignment="Top" Width="93" Click="btnPlus_Click"/>
         <Button x:Name="btnSix" Content="6" HorizontalAlignment="Left" Height="59" Margin="433,205,0,0" VerticalAlignment="Top" Width="93" Click="btnSix_Click"/>
         <Button x:Name="btnFive" Content="5" HorizontalAlignment="Left" Height="59" Margin="332,205,0,0" VerticalAlignment="Top" Width="93" Click="btnFive_Click"/>
