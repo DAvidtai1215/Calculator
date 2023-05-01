@@ -8,5 +8,6 @@ namespace Calculator
 {
     internal class Calculate
     {
+
     }
 }
