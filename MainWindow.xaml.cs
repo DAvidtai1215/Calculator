@@ -127,6 +127,17 @@ namespace Calculator
             operators = -1;
         }
 
+        private void p1_Click(object sender, RoutedEventArgs e)
+        {
+            txtNumber.Text =Convert.ToString (Int32.Parse(txtNumber.Text) * 0.01);
+        }
+
+        private void p2_Click(object sender, RoutedEventArgs e)
+        {
+            int X = txtNumber.Text.Length;
+            txtNumber.Text = txtNumber.Text.Substring(0, X-1);
+        }
+
         private void btnEqual_Click(object sender, RoutedEventArgs e)
         {
             float finalResults = 0f; //宣告最後計算結果變數

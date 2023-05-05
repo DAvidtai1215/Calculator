@@ -25,6 +25,8 @@
         <Button x:Name="btnEqual" Content="=" HorizontalAlignment="Left" Height="59" Margin="433,334,0,0" VerticalAlignment="Top" Width="93" Click="btnEqual_Click"/>
         <Button x:Name="btnZero" Content="0" HorizontalAlignment="Left" Height="59" Margin="332,334,0,0" VerticalAlignment="Top" Width="93" Click="btnZero_Click"/>
         <Button x:Name="btnDot" Content="." HorizontalAlignment="Left" Height="59" Margin="234,334,0,0" VerticalAlignment="Top" Width="93" Click="btnDot_Click"/>
+        <Button x:Name="p1" Content="%" HorizontalAlignment="Left" Height="60" Margin="106,205,0,0" VerticalAlignment="Top" Width="93" Click="p1_Click"/>
+        <Button x:Name="p2" Content="&lt;&lt;" HorizontalAlignment="Left" Height="60" Margin="106,270,0,0" VerticalAlignment="Top" Width="93" Click="p2_Click"/>
 
     </Grid>
 </Window>
